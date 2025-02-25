@@ -1,0 +1,36 @@
+.container, .navlinks{
+    display: flex;
+}
+.container{
+    justify-content: space-between;
+    align-items: center;
+    height: 17vh;
+}
+
+.navlinks{
+    gap: 20px;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a{
+    color: var(--text-color);
+    text-decoration: none;
+    font-family: 'Roboto Mono', 'monospace';
+    /* text-decoration-color: white; */
+}
+
+a:hover{
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+html{
+    scroll-behavior: smooth;
+}
