@@ -6,6 +6,7 @@
   --text-color: #222;
   --form-text-color: #555;
   --footer-text-color: #888;
+  --card-bg-color: #efefef;
 }
 
 [data-theme='dark'] {
@@ -16,6 +17,7 @@
   --text-color: #fff;
   --form-text-color: #fff;
   --footer-text-color: #bbb;
+  --card-bg-color: #616161;
 }
 
 body {
@@ -65,6 +67,43 @@ p{
 
 .hover{
   cursor: pointer;
+}
+
+#projCard{
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding: 2.5%;
+  max-width: 500px;
+  gap: 10px;
+  background-color: var(--card-bg-color); /*#616161 background color for darkmode and #efefef for light mode*/
+}
+
+#icons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+#icon{
+  height: 30px;
+  margin: 0px 4px;
+}
+
+#gitLink{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 0px 4px;
+  background-color:var(--background-color);
+}
+
+#githubIcon{
+  height: 40px;
 }
 
 @media(width >= 800px) {

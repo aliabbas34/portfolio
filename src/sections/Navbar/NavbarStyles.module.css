@@ -7,6 +7,12 @@
     justify-content: space-between;
     align-items: center;
     height: 17vh;
+    a:hover{
+        color: grey;
+        text-decoration: underline;
+        text-underline-offset: 1rem;
+        text-decoration-color: rgb(181, 181, 181);
+    }
 }
 
 .navlinks{
@@ -22,12 +28,7 @@ a{
     /* text-decoration-color: white; */
 }
 
-a:hover{
-    color: grey;
-    text-decoration: underline;
-    text-underline-offset: 1rem;
-    text-decoration-color: rgb(181, 181, 181);
-}
+
 
 .logo{
     font-size: 2rem;
