@@ -1,0 +1,18 @@
+/* write styles for project card here */
+
+.container{
+    border-radius: 20px;
+    display: flex;
+    padding: 1.5%;
+    background-color: var(--card-bg-color); /*#616161 background color for darkmode and #efefef for light mode*/
+    gap: 10px;
+    max-width: 1024px;
+}
+
+.projCardLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
