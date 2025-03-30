@@ -19,15 +19,16 @@ function ProjectCard({ link, projDescription, projName, icons, imgSrc }){
                     {icons.map((data)=> <img id="icon" src={data.icon} alt={data.alt} />
                     )}
                 </div>
-                <a id="gitLink" href={link} target='_blank'>
-                    <img src={githubIcon} id="githubIcon" alt="github-icon" />
-                    <p style={{margin:"auto"}}>visit</p>
-                </a>
+                <div style={{display: 'flex'}}>
+                    <a id='liveDemo' href="https://ali-abbas-dev.myshopify.com/" target='_blank'>
+                        <p>Live demo</p>
+                    </a>
+                    <a id="gitLink" href={link} target='_blank'>
+                        <img src={githubIcon} id="githubIcon" alt="github-icon" />
+                        <p style={{margin:"auto"}}>visit</p>
+                    </a>
+                </div>
             </div>
-            {/* <div style={{}}>
-                <img src="src\assets\countdown-timer-top-bar.png" alt="timer img wide" />
-            </div> */}
-            
         </div>
     );
 }
